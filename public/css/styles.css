@@ -13,3 +13,7 @@
 .rounded-4 {
     border-radius: 8px;
 }
+
+.fa-grip-vertical, .fa-bookmark, .fa-film {
+    font-size: 48px;
+}
