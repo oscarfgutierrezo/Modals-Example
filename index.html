@@ -16,13 +16,13 @@
 <body>
     <div class="position-relative" style="height: 350px;">
         <div>
-            <button type="button" class="btn btn-primary position-absolute top-50 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Launch demo modal
+            <button type="button" class="btn btn-success position-absolute top-50 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#example-01">
+            Launch modal
             </button>
         </div>
-        <div class="modal fade position-absolute" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog m-0 top-50 start-50 translate-middle" style="width: 380px;">
-                <div class="modal-content">
+        <div class="modal fade position-absolute" id="example-01" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog m-0 top-50 start-50 translate-middle" style="max-width: 380px; min-width: 320px;">
+                <div class="modal-content rounded-6">
                     <div class="modal-header border-0">
                         <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -31,16 +31,38 @@
                         This is a modal sheet, a variation of the modal that docs itself to the bottom of the viewport like the newer share sheets in iOS.
                     </div>
                     <div class="modal-footer pb-4 border-0">
-                        <button type="button" class="btn btn-primary btn-lg col-12" data-bs-dismiss="modal">Save changes</button>
-                        <button type="button" class="btn btn-light btn-lg col-12">Close</button>
+                        <button type="button" class="btn btn-success btn-lg col-12" data-bs-dismiss="modal">Save changes</button>
+                        <button type="button" class="btn btn-light btn-lg col-12" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="space"></div>
-    <div class="position-relative">
+    <div class="position-relative" style="height: 205px;">
+        <div>
+            <button type="button" class="btn btn-primary position-absolute top-50 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#example-02">
+            Launch modal
+            </button>
+        </div>
+        <div class="modal fade position-absolute" id="example-02" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog m-0 top-50 start-50 translate-middle" style="max-width: 380px; min-width: 320px;">
+                <div class="modal-content rounded-4">
+                    <div class="modal-body p-4 text-center">
+                        <h5 class="mb-0">Enable this setting?</h5>
+                        <p class="mb-0">You can always change your mind in your account settings.</p>
+                    </div>
+                    <div class="modal-footer d-flex p-0">
+                        <button type="button" class="btn btn-lg btn-link col m-0 rounded-0 fs-6 text-decoration-none border-end" data-bs-dismiss="modal">
+                            <strong>Yes, enable</strong> 
+                        </button>
+                        <button type="button" class="btn btn-lg btn-link col m-0 rounded-0 fs-6 text-decoration-none" data-bs-dismiss="modal">No thanks</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="space"></div>
     <div class="space"></div>
     
     <!-- Bootstrap js -->
